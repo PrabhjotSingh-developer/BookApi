@@ -57,7 +57,9 @@ if(isset($_SESSION['favorites']))
 
                     <form action="includes/handleFavourites.php" method="post">
                           <input type="hidden" name="bookId" value="<?php echo $book['id']?>">
-                          <button type="submit" name="like">Remove from favourite</button> 
+                          <input type="hidden" name="action" value="remove">
+
+                          <button type="submit" name="remove">Remove from favourite</button> 
                     </form>
                 </div>
             <?php endforeach; ?>

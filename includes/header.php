@@ -10,7 +10,7 @@
       <h1>Book Api</h1>
       <nav>
           <a href="index.php">Home</a>
-          <a href="villians.php">Villians</a>
+          <a href="villainspage.php">Villians</a>
           <a href="favourite.php">favourite books</a>
           <form method="GET" action="index.php">
          <input type="text" name="search" placeholder="Search by book name, title, or author" value="<?php echo isset($_GET['search']) ? $_GET['search'] : ''; ?>">
